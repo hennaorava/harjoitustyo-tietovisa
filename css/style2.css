@@ -1,0 +1,42 @@
+body {
+    padding: 20px; /* Tämä lisää paddingia koko sivun ympärille */
+    background-color: white;
+}
+
+#quiz-container {
+    padding: 20px; /* Lisää paddingia kysymyskontille */
+}
+
+#summary-container {
+    padding: 20px; /* Lisää paddingia yhteenvetokontille */
+    margin: 10px 0;
+}
+
+.summary-box {
+    background-color: #f0f0f0; /* Vaalean harmaa taustaväri */
+    border-radius: 5px; /* Pyöristetyt kulmat */
+    padding: 15px; /* Lisää tilaa boksin sisälle */
+    margin: 10px 0; /* Lisää tilaa boksien väliin */
+}
+
+button {
+    display: block; /* Painikkeet allekkain */
+    width: 70%; /* Tekee painikkeista leveämpiä */
+    padding: 10px; /* Lisää paddingia painikkeille */
+    margin: 10px 0; /* Lisää tilaa painikkeiden väliin */
+    font-size: 18px;
+}
+
+/* Media Query pienille näytöille (max-width: 600px) */
+@media (max-width: 600px) {
+    button {
+        width: 100%;
+    }
+}
+
+/* Media Query keskikokoisille näytöille (min-width: 601px and max-width: 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    button {
+        width: 100%;
+    }
+}

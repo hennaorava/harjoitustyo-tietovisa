@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Määrittää sivun merkistöksi UTF-8, jotta se tukee laajaa joukkoa merkkejä -->
+    <meta charset="UTF-8">
+    <!-- Säätää sivun näkymän niin, että se skaalautuu mobiililaitteilla hyvin -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Liittää sivuun ulkoisen tyylitiedoston, joka löytyy tämän tiedoston css-kansiosta nimellä style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Sivuikkunan otsikko, joka näkyy esimerkiksi selaimen välilehdellä -->
+    <title>TRIVIA QUIZ</title>
+</head>
+<body>
+    <!-- Pääosio, joka sisältää sivun otsikon, valikon ja painikkeen -->
+    <div>
+        <!-- Sivun pääotsikko = h1 -->
+        <h1>TRIVIA QUIZ</h1>
+        <!-- Lomake-elementti, johon on liitetty valikko kategorian valintaa varten -->
+        <label for="category-select">Select category:</label>
+        <!-- Pudotusvalikko kategorian valitsemiseen -->
+        <select id="category-select">
+            <!-- Valittavissa olevat kategoriavaihtoehdot, jokaisella on oma arvonsa -->
+            <option value="9">General Knowledge</option>
+            <option value="18">Computer Science</option>
+            <option value="25">Art</option>
+            <option value="23">History</option>
+        </select>
+        <!-- Aloituspainike, jolla käyttäjä voi käynnistää tietovisan -->
+        <button id="start-button">Start</button>
+        <!-- Kysymysmerkki-kuva etusivulla; näkyy ennen kuin käyttäjä aloittaa pelin, alt-teksti lisää saavutettavuutta kuvauksellaan -->
+        <img src="./images/question-8264110_1280.webp" alt="Trivia Quiz picture" />
+    </div>    
+    <!-- Axios-kirjasto ladattuna ulkoisesta lähteestä, käytetään tiedon hakemiseen -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Liitetään JavaScript-tiedosto, jossa on tietovisaan liittyvät funktiot -->
+    <script src="./js/functions.js"></script>
+</body>
+</html>

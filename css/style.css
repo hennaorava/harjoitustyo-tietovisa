@@ -1,0 +1,98 @@
+body {
+    padding: 20px; /* Lisää paddingia koko sivun ympärille */
+    background-color: white; /* Sivun taustaväri */
+}
+
+label {
+    margin-right: 10px; /* Lisää väliä labelin ja pudotusvalikon väliin */
+    font-size: 18px; /* Suurentaa labelin fonttikokoa */
+}
+
+h1 {
+    margin-bottom: 45px; /* Lisää väliä otsikon ja muun sisällön väliin */
+}
+
+select {
+    display: inline-block; /* Varmistaa, että pudotusvalikko on samalla rivillä */
+    margin-right: 10px; /* Lisää väliä pudotusvalikon ja painikkeen väliin */
+    font-size: 18px; /* Suurentaa pudotusvalikon fonttikokoa */
+    padding: 10px; /* Lisää paddingia pudotusvalikolle, jotta se näyttää suuremmalta */
+}
+
+button {
+    width: 15%; /* Tämä määrittää painikkeen leveyden */
+    display: inline-block; /* Tämä varmistaa, että painike on samalla rivillä */
+    font-size: 18px; /* Suurentaa painikkeen fonttikokoa */
+    padding: 10px; /* Lisää paddingia painikkeelle, jotta se näyttää suuremmalta */
+}
+
+img {
+    width: 600px; /* Asettaa leveyden */
+    height: auto; /* Tämä pitää kuvan mittasuhteet ennallaan */
+    display: block; /* Tämä varmistaa, että kuva on omalla rivillään */
+    margin-top: 10px; /* Lisää väliä kuvaan ja edelliseen sisältöön */
+}
+
+/* Media Query pienille näytöille (max-width: 600px) */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Vähentää paddingia pienillä näytöillä */
+    }
+
+    h1 {
+        font-size: 24px; /* Pienentää otsikon fonttikokoa */
+        margin-bottom: 20px; /* Vähentää väliä otsikon ja muun sisällön välillä */
+    }
+
+    label {
+        font-size: 16px; /* Pienentää labelin fonttikokoa */
+    }
+
+    select {
+        width: 100%; /* Tekee pudotusvalikosta 100% leveä */
+        margin-bottom: 10px; /* Lisää väliä pudotusvalikon ja painikkeen väliin */
+    }
+
+    button {
+        width: 100%; /* Tekee painikkeesta 100% leveä */
+        margin-bottom: 10px; /* Lisää väliä painikkeen ja kuvan väliin */
+    }
+
+    img {
+        width: 100%; /* Tekee kuvasta 100% leveän */
+        height: auto; /* Säilyttää kuvan mittasuhteet */
+        margin-top: 10px; /* Lisää väliä kuvaan ja edelliseen sisältöön */
+    }
+}
+
+/* Media Query keskikokoisille näytöille (min-width: 601px and max-width: 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        padding: 10px; /* Vähentää paddingia pienillä näytöillä */
+    }
+
+    h1 {
+        font-size: 24px; /* Pienentää otsikon fonttikokoa */
+        margin-bottom: 20px; /* Vähentää väliä otsikon ja muun sisällön välillä */
+    }
+
+    label {
+        font-size: 16px; /* Pienentää labelin fonttikokoa */
+    }
+
+    select {
+        width: 100%; /* Tekee pudotusvalikosta 100% leveä */
+        margin-bottom: 10px; /* Lisää väliä pudotusvalikon ja painikkeen väliin */
+    }
+
+    button {
+        width: 100%; /* Tekee painikkeesta 100% leveä */
+        margin-bottom: 10px; /* Lisää väliä painikkeen ja kuvan väliin */
+    }
+
+    img {
+        width: 100%; /* Tekee kuvasta 100% leveä */
+        height: auto; /* Säilyttää kuvan mittasuhteet */
+        margin-top: 10px; /* Lisää väliä kuvaan ja edelliseen sisältöön */
+    }
+}
