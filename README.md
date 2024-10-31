@@ -26,11 +26,11 @@ Rakennettu käyttäen:
 - Visual Studio Code 
 
 Sivuston toteuttamisessa apuna ja oppaana käytetyt lähteet:
--	OpenAI ChatGPT 3.5. Saatavilla: chatgpt.com 
+-	OpenAI ChatGPT 3.5. Saatavilla: https://chatgpt.com/
 -	Sitepoint - How to Make a Simple JavaScript Quiz, 2024. Saatavilla: https://www.sitepoint.com/simple-javascript-quiz/ 
 -	Medium – Building an Interactive Quiz with HTML, CSS, and JavaScript, 2023. Saatavilla: https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2 
 -	GreatStack - How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript. Saatavilla: https://www.youtube.com/watch?v=PBcqGxrr9g8 
 -	Peltomäki, Juha. JavaScript-kieli : uudet ominaisuudet, 2017.
 
 Sivuston idean inspiraation lähde:
-https://alypaa.com/
+- https://alypaa.com/
