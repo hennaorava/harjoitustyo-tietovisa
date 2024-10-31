@@ -31,3 +31,6 @@ Sivuston toteuttamisessa apuna ja oppaana käytetyt lähteet:
 -	Medium – Building an Interactive Quiz with HTML, CSS, and JavaScript, 2023. Saatavilla: https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2 
 -	GreatStack - How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript. Saatavilla: https://www.youtube.com/watch?v=PBcqGxrr9g8 
 -	Peltomäki, Juha. JavaScript-kieli : uudet ominaisuudet, 2017.
+
+Sivuston idean inspiraation lähde:
+https://alypaa.com/
